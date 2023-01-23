@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import Cards from './components/Cards';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cards/>
+      <div className='botao'>
+      <button className='btn'>Gerenciar perfis</button><br/>
+      </div>
+      <a href="https://www.linkedin.com/in/artur-freitas-da-silva-8a708a223/">Desenvolvido por DEV: Artur Freitas</a>
+
     </div>
   );
 }
